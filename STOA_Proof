@@ -1,0 +1,46 @@
+STOA LOGIC "PROOF":
+
+This is a logical representation of a philosophical position. It clarifies that any action, no matter its significance, must have an effect. Statistically negligible or infinitesimal action still affects the macroscopic course of causality over a long enough time period.
+
+≔ means "Is defined as"
+⇔≔"IS ALWAYS"
+∧≔"AND"
+∨≔"OR"
+!≔"NOT"
+iff≔"if and only if"
+P{Z}≔"The probability of Z"
+
+Q≔"Any non-empty set of real numbers" e.g. (0≤n≤1), (0≤n≤𝛚)
+x≔"Any random, non-empty subset of Q"
+y≔"Any random, non-empty subset of Q"
+⊤≔"1 iff (1=1)" aka "logically (1)"
+⊥≔"0 iff (0=0)" aka "logically (0)"
+🐦≔"The smallest, non-finite, non-negative integer; a defined number" [This emoji is red in most fonts, meaning it's a cardinal. Get it? Cardinal number!]
+🐉≔"1 iff P(x=y)∨P(x≠y)" aka "logically (!1∧!0)" aka "classically undefined" [Dragons are cool.]
+
+1a. [(x⊆Q)∧(y⊆Q)] ⇔ ⊤ (both x and y are contained within Q.)
+1b. [(x=y)∨(x≠y)] ⇔ ⊤ (x and y are either equal or not equal.)
+1c. [(P{x=y})=1] ⇔ ⊥ (the probability of x and y being equal is never 1:1.)
+1d. [(P{x=y})=0] ⇔ ⊥ (the probability of x and y being equal is never 0:1 but is "infinitesimal".)
+1e. ∴ [0<(P{x=y})<1] ⇔ ⊤ ∎ (therefore, the probability must be greater than 0 and less than 1.)
+
+2a. [(x=y)∨(x≠y)] ⇔ ⊤ (1b.)
+2b. [0<(P{x=y})<1] ⇔ ⊤ (1e.)
+2c. ∴ (|Q|=🐦) ⇔ ⊤ ∎ (therefore the size of Q is infinite, but not undefined.)
+
+3a. [(1/n)=0] ⇔ 🐉 (the inverse of zero is undefined.)
+3b. (|Q|=🐦) ⇔ ⊤ (2c.)
+3c. (🐦≠0) ⇔ ⊤ (🐦 is defined and non-zero.)
+3d. ∴ [(1/🐦)>0] ⇔ ⊤ ∎ (therefore the inverse of 🐦 is defined and non-zero.)
+
+
+4a. [(1/🐦)>0] ⇔ ⊤ (3d from above)
+4b. [lim_{n→0}(1/n)=±∞] ⇔ ⊤ (as numbers approach zero, their inverse approaches infinity.)
+4c. [lim_{n→±∞}(1/n)=0] ⇔ ⊤ (as numbers approach infinity, their inverse approaches zero.)
+4d. [lim_{n→🐦}(1/n)=0] ⇔ ⊤ (🐦 is non-finite, but not infinite, but 4c is true.)
+4e. [lim_{n→±∞}(1/🐦)=0] ⇔ ⊤ (because 🐦 is non-zero but defined, it's inverse cannot be undefined, but the limit of its inverse will be zero.)
+4g. (🐦≠∞) ⇔ ⊤ (🐦 is a number, ∞ is not, so they can never be equal.)
+4f. ∴ [lim_{n→±∞}(1/n)]=[lim_{n→🐦}(1/n)] ⇔ 🐉 ∎ (therefore 4c and 4d are not equal and not unequal.)
+
+5a. [lim_{n→±∞}(1/n)]=[lim_{n→🐦}(1/n)] ⇔ 🐉
+5b. ∴ (0=0) ⇔ 🐉 ∎ (therefore, zero does not always equal zero. q.e.d.)
